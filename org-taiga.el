@@ -30,6 +30,26 @@
 ;;;
 
 ;;; Code:
+(defgroup org-taiga nil
+  "Custom group for org-taiga"
+  :group 'org)
+
+(defcustom org-taiga-url "http://localhost:8000"
+  "URL of taiga instance to connect to."
+  :group 'org-taiga
+  :type 'string)
+
+(defcustom org-taiga-auth-token nil
+  "Authentication token used at `org-taiga-url'.
+
+Refer to taiga REST API docs to get information on how to get it."
+  :group 'org-taiga
+  :type 'string)
+
+(defcustom org-taiga-project-slug nil
+  "Project slug used to access milestones, user stories etc."
+  :group 'org-taiga
+  :type 'string)
 
 (provide 'org-taiga)
 ;;; org-taiga.el ends here

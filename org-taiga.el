@@ -5,7 +5,7 @@
 ;; Authors: Konstantin Sorokin <sorokin.kc@gmail.com>
 ;; URL: http://github.com/xmagpie/org-taiga
 ;; Version: 0.1.0
-;; Package-Requires: ((emacs "26.2"))
+;; Package-Requires: ((emacs "26.2") (request "0.3.2") (jeison "1.0.0"))
 ;; Keywords: tools, org-mode, taiga, project-management
 
 ;; This file is NOT part of GNU Emacs.
